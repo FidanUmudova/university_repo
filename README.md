@@ -224,3 +224,25 @@ git rebase origin/main
 # Something went wrong
 git rebase --abort
 ```
+## Common Mistakes
+
+```bash
+# Mistake 1: Committing directly to main
+# Don't do this — always work on a feature branch
+git checkout -b feat/your-task
+
+# Mistake 2: Force pushing without --force-with-lease
+git push --force              # bad, can overwrite teammates' work
+git push --force-with-lease   # safer, fails if someone else pushed first
+
+# Mistake 3: Vague commit messages
+git commit -m "fix"                          # bad, says nothing
+git commit -m "fix(auth): handle expired token"  # good, clear and specific
+
+# Mistake 4: Not syncing with main before starting work
+git fetch origin
+git rebase origin/main
+
+# Mistake 5: Mixing unrelated changes in one commit
+# Keep each commit focused on a single change — easier to review and revert
+```
