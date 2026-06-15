@@ -1,3 +1,6 @@
+> **Note for Team Members:** Please ensure you review the `CONVENTIONS.md` file before making your first commit to maintain project standards.
+
+
 # 🧑‍💻 GitHub Collaboration Guide
 
 This is your complete reference for working with Git and GitHub as a team.
