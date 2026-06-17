@@ -224,3 +224,18 @@ git rebase origin/main
 # Something went wrong
 git rebase --abort
 ```
+## What We Built
+
+###  Files in this repository
+
+- **README.md** — Complete guide for working with Git and GitHub as a team, including common mistakes section.
+- **GLOSSARY.md** — Definitions of key Git and GitHub terms for new contributors.
+- **guides/CONVENTIONS.md** — Conventions and rules for contributing to this repository.
+- **guides/TASKS.md** — Sprint tasks and instructions for the team.
+- **CONTRIBUTING.md** — Guidelines on how to contribute to this project.
+
+###  Contributors
+
+- [@FidanUmudova](https://github.com/FidanUmudova)
+- [@ramilem8](https://github.com/ramilem8)
+- [@aitajghrmn](https://github.com/aitajghrmn)
